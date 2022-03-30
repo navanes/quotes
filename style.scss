@@ -1,0 +1,37 @@
+body {
+  background-color: #4a3933;
+  .container {
+    background-color: #f0a500;
+    height: 400px;
+    direction: ltr;
+    padding: 15px;
+    font-size: 32px;
+    font-family: Arial;
+    margin: 50px 10%;
+    font-weight: bold;
+    border-top: #e45826 2px solid;
+    i fa-quote-right {
+      font-size: 30px;
+      padding: 0 20px;
+      color: #4a3933;
+    }
+    i.fa-quote-right {
+      float: right;
+    }
+    #quote {
+      text-align: center;
+      padding: 0 20px;
+      line-height: 35px;
+    }
+    .new-quote {
+      background-color: #e45826;
+      padding: 4px 25px;
+      cursor: pointer;
+      border-radius: 5px;
+      float: right;
+      box-shadow: darkgray 1px 1px;
+      top: 450px;
+      position: absolute;
+    }
+  }
+}
